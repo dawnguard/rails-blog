@@ -1,2 +1,91 @@
+$navbar-default-bg: #fff;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+@font-face {
+font-family: 'BalsamiqSansBold';
+src:font-url('BalsamiqSansBold.ttf') format('truetype');
+font-weight: bold;
+}
+
+@font-face {
+font-family: 'BalsamiqSansRegular';
+src:font-url('BalsamiqSansRegular.ttf') format('truetype');
+}
+
+.nav {
+
+  font-family: 'BalsamiqSansRegular';
+  font-size: 14px;
+}
+
+.navbar-default .navbar-text {
+  color: #555;
+}
+
+.btn, .form-group input {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: auto;
+  border-radius: 6px;
+}
+
+.nav p {
+  padding-left: 15px;
+}
+
+.btn, .form-group input, .navbar-default .navbar-nav li a {
+  font-size: 16px;
+  font-family: 'BalsamiqSansRegular';
+  color: #597eaa;
+}
+
+#searchbar {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 10px;
+}
+
+#logo {
+  font-family: 'BalsamiqSansbold';
+  font-size: 24px;
+  text-transform: uppercase;
+
+  color: #6faaaa;
+}
+
+#logo span {
+  color: #999999;
+  font-family: 'balsamiqsansbold';
+}
+
+
+* {
+  font-family: BalsamiqSansRegular;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
