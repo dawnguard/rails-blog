@@ -14,9 +14,15 @@ font-family: 'BalsamiqSansRegular';
 src:font-url('BalsamiqSansRegular.ttf') format('truetype');
 }
 
-.nav {
+body {
+  font-family: BalsamiqSansRegular;
+}
 
-  font-family: 'BalsamiqSansRegular';
+/*****************
+  NAVBAR START 
+*****************/ 
+
+.nav {
   font-size: 14px;
 }
 
@@ -24,27 +30,26 @@ src:font-url('BalsamiqSansRegular.ttf') format('truetype');
   color: #555;
 }
 
-.btn, .form-group input {
+/* .nav .btn, .nav .form-group input {
   padding-top: 0;
   padding-bottom: 0;
   height: auto;
   border-radius: 6px;
-}
 
-.nav p {
-  padding-left: 15px;
-}
-
-.btn, .form-group input, .navbar-default .navbar-nav li a {
-  font-size: 16px;
-  font-family: 'BalsamiqSansRegular';
-  color: #597eaa;
-}
-
-#searchbar {
+  #searchbar {
   margin-top: 25px;
   margin-bottom: 25px;
   margin-right: 10px;
+}
+} */
+
+.nav p {
+  margin-left: 30px;
+}
+
+.navbar-default .navbar-nav li a {
+  font-size: 16px;
+  color: #597eaa;
 }
 
 #logo {
@@ -57,13 +62,15 @@ src:font-url('BalsamiqSansRegular.ttf') format('truetype');
 
 #logo span {
   color: #999999;
-  font-family: 'balsamiqsansbold';
 }
 
+/*****************
+  NAVBAR END 
+*****************/ 
 
-* {
-  font-family: BalsamiqSansRegular;
-}
+/*****************
+  FOOTER START 
+*****************/ 
 
 hr {
   margin-top: 45px;
@@ -92,3 +99,7 @@ footer ul li {
   float: left;
   margin-left: 15px;
 }
+
+/*****************
+  FOOTER END 
+*****************/ 
