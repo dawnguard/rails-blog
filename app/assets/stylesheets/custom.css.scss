@@ -65,11 +65,14 @@ src:font-url('BalsamiqSansRegular.ttf') format('truetype');
   font-family: BalsamiqSansRegular;
 }
 
-footer {
+hr {
   margin-top: 45px;
-  padding-top: 5px;
-  border-top: 1px solid #eaeaea;
+  margin-bottom: 0;
+}
+
+footer {
   color: #777;
+  padding-top: 10px;
 }
 
 footer a:hover {
