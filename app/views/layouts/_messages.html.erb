@@ -1,5 +1,13 @@
-<% flash.each do |name, msg| %>
-  <ul>
-    <li><%= msg %></li>
-  </ul>
-<% end %>
+<div class="container" id="messages">
+  <div class="row">
+  <div class="col-xs-12">
+    <% flash.each do |name, msg| %>
+        <script>alertify.success("<%= msg if msg.is_a?(String) %>");</script>
+    <% end %>
+  </div>
+  </div>
+</div>
+
+
+
+
